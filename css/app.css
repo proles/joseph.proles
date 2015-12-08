@@ -11,7 +11,7 @@ p {
 .wrapper {
 }
 .featured-image {
-	background: url("/img/the_bradbury_project-2275.jpg") no-repeat bottom center;/*2249, 2275*/
+	background: url("../img/the_bradbury_project-2275.jpg") no-repeat bottom center;/*2249, 2275*/
 	background-size: cover;
 	min-height: 800px;
 	position: relative;
