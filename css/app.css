@@ -1,0 +1,73 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Libre Baskerville', serif;
+}
+p {
+	font-family: 'Libre Baskerville', serif;
+	line-height: 2;
+}
+.wrapper {
+}
+.featured-image {
+	background: url("/img/the_bradbury_project-2275.jpg") no-repeat bottom center;/*2249, 2275*/
+	background-size: cover;
+	min-height: 800px;
+	position: relative;
+}
+@media (max-width:36em) {
+	.featured-image {
+		min-height: 300px;	
+	}
+}
+.featured-image h1 {
+	position: absolute;
+	bottom: 10%;
+	left: 20%
+}
+.post-title {
+	color: #fff;
+}
+.main-post {
+	padding: 2em 2em 4em;
+}
+.main-post .part-list a{
+	color: #acacac;
+}
+.main-post .part-list a:hover{
+	color: #000;
+}
+.post {
+}
+.image-slider .slider-image{
+	max-height:647px;
+}
+article h4 {
+}
+article a > h4 {
+	cursor: pointer;
+}
+article p.limit{
+	overflow: hidden;
+}
+article p.limit.active {
+	height: auto;
+}
+article p.theory {
+	color: #acacac;
+}
+article p.player-controls > span {
+	display: inline-block;
+	color: #000;
+	cursor: pointer;
+	padding: 0 0.5em;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 0 0.25em;
+}
+.slick-prev:before,
+.slick-next:before
+{
+	color: #000;
+}
