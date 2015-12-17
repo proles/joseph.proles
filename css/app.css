@@ -43,6 +43,19 @@ p {
 .image-slider .slider-image{
 	max-height:647px;
 }
+.animation-trigger {
+	position: absolute;
+	font-size: 2em;
+	color: orange;
+	right: 0;
+	top: 1em;
+}
+.animation-trigger:hover {
+	cursor: pointer;
+}
+section > article {
+	padding: 2em 0;
+}
 article h4 {
 }
 article a > h4 {
@@ -69,5 +82,5 @@ article p.player-controls > span {
 .slick-prev:before,
 .slick-next:before
 {
-	color: #000;
+	color: orange;
 }
